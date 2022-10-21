@@ -1,0 +1,23 @@
+{
+    "name": "rivera/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8 MVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rivera\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristian Rivera",
+            "email": "javi-cali1995@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
